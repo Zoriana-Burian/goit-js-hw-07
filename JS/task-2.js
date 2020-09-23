@@ -9,7 +9,7 @@ const ingredients = [
     'Приправы',
   ];
 
-  const ulList = document.getElementById("ingredients");
+  const ulList = document.querySelector("#ingredients");
   const elements = ingredients.map(ingredient => {
     const items = document.createElement('li');
     items.innerHTML = ingredient;
