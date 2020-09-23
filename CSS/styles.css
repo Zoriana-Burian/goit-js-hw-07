@@ -9,3 +9,10 @@
   #validation-input.invalid {
     border-color: #f44336;
   }
+
+
+  .img {
+    display: flex;
+    list-style: none;
+   
+  }
